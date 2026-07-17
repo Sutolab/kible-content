@@ -16,6 +16,7 @@ paket dosyası (uygulama güncellemesi gerekmez).
 | `quran-base-v1.json.gz` | Arapça metin + sure adları (ar/en/tr) — uygulamaya da gömülü |
 | `quran-tr-elmalili-v1.json.gz` | Türkçe meal — Elmalılı Hamdi Yazır |
 | `quran-en-yusufali-v1.json.gz` | İngilizce meal — Abdullah Yusuf Ali |
+| `quran-ur-kanzuliman-v1.json.gz` | Urduca meal — Ahmed Rıza Han (Kenzü'l-İmân) |
 | `quran-translit-tr-v1.json.gz` | Kuranca okunuş (Latin/Türkçe transliterasyon) |
 
 ### Kaynaklar ve lisanslar
@@ -29,6 +30,12 @@ paket dosyası (uygulama güncellemesi gerekmez).
   hukukunda koruma süresi (ölüm + 70 yıl) dolmuştur, kamu malıdır.
 - **İngilizce meal:** Abdullah Yusuf Ali (v. 1953) — kamu malıdır.
   Kaynak: fawazahmed0/quran-api (`eng-abdullahyusufal`).
+- **Urduca meal:** Ahmed Rıza Han / Ahmad Raza Khan Barelvi (v. 1921) —
+  "Kenzü'l-İmân" (1910), kendi özgün çevirisi; Pakistan (yaşam+50) ve
+  Hindistan (yaşam+60) telif sürelerinin ikisi de dolmuş, kamu malıdır.
+  Kaynak: Al Quran Cloud API (`ur.kanzuliman`, düz metin, dipnotsuz);
+  8 ayette kalan orijinal dipnot referans numarası (ör. "(۵۴)") veri
+  temizliğiyle çıkarıldı (footnote metni zaten dahil değildi).
 - **Kuranca okunuş:** [QUL / Tarteel](https://qul.tarteel.ai) "Turkish
   Transliteration" (QUL kaynak id 1560; data source: Tarteel). QUL'da bu
   kaynak için üçüncü şahıs telif kaydı yoktur; QUL SSS ticari kullanıma
