@@ -17,6 +17,7 @@ paket dosyası (uygulama güncellemesi gerekmez).
 | `quran-tr-elmalili-v1.json.gz` | Türkçe meal — Elmalılı Hamdi Yazır |
 | `quran-en-yusufali-v1.json.gz` | İngilizce meal — Abdullah Yusuf Ali |
 | `quran-ur-kanzuliman-v1.json.gz` | Urduca meal — Ahmed Rıza Han (Kenzü'l-İmân) |
+| `quran-fa-ghomshei-v1.json.gz` | Farsça meal — Mahdi Elahi Ghomshei |
 | `quran-translit-tr-v1.json.gz` | Kuranca okunuş (Latin/Türkçe transliterasyon) |
 
 ### Kaynaklar ve lisanslar
@@ -36,6 +37,14 @@ paket dosyası (uygulama güncellemesi gerekmez).
   Kaynak: Al Quran Cloud API (`ur.kanzuliman`, düz metin, dipnotsuz);
   8 ayette kalan orijinal dipnot referans numarası (ör. "(۵۴)") veri
   temizliğiyle çıkarıldı (footnote metni zaten dahil değildi).
+- **Farsça meal:** Mahdi Elahi Ghomshei / مهدی الهی قمشه‌ای (v. 1973) —
+  İran telif hukukunda koruma süresi dolmuş, kamu malıdır (1970 yasası
+  ömür+30 → 2003; 2010 reformu ömür+50 geriye dönük değil; en muhafazakâr
+  okumada ömür+50 → 2023). İran Bern Konvansiyonu dışıdır; AB/Türkiye'de
+  "kısa süre kuralı" gereği hedef pazarlarda ek koruma doğmaz. Kaynak:
+  Al Quran Cloud API (`fa.ghomshei`, düz metin); 11 ayette köşeli-parantez
+  içi tefsir/editör notu ([...], çoğu "(م)" işaretli) meal saflığı için
+  temizlendi; Ghomshei'nin yuvarlak-parantez içi kısa açıklamaları korundu.
 - **Kuranca okunuş:** [QUL / Tarteel](https://qul.tarteel.ai) "Turkish
   Transliteration" (QUL kaynak id 1560; data source: Tarteel). QUL'da bu
   kaynak için üçüncü şahıs telif kaydı yoktur; QUL SSS ticari kullanıma
