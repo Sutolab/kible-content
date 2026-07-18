@@ -18,6 +18,7 @@ paket dosyası (uygulama güncellemesi gerekmez).
 | `quran-en-yusufali-v1.json.gz` | İngilizce meal — Abdullah Yusuf Ali |
 | `quran-ur-kanzuliman-v1.json.gz` | Urduca meal — Ahmed Rıza Han (Kenzü'l-İmân) |
 | `quran-fa-ghomshei-v1.json.gz` | Farsça meal — Mahdi Elahi Ghomshei |
+| `quran-ru-sablukov-v1.json.gz` | Rusça meal — Гордий Саблуков (Gordy Sablukov) |
 | `quran-translit-tr-v1.json.gz` | Kuranca okunuş (Latin/Türkçe transliterasyon) |
 
 ### Kaynaklar ve lisanslar
@@ -45,6 +46,13 @@ paket dosyası (uygulama güncellemesi gerekmez).
   Al Quran Cloud API (`fa.ghomshei`, düz metin); 11 ayette köşeli-parantez
   içi tefsir/editör notu ([...], çoğu "(م)" işaretli) meal saflığı için
   temizlendi; Ghomshei'nin yuvarlak-parantez içi kısa açıklamaları korundu.
+- **Rusça meal:** Гордий Саблуков / Gordy Sablukov (v. 1880) — meali 1878'de
+  Kazan'da, HAYATTAYKEN yayımlandı (posthum değil); Rusya Federasyonu Sivil
+  Kanun Madde 1281 п.1 (yaşam+70) geçerli → 1950'de kamu malı oldu. NOT:
+  Krachkovsky (öl. 1951, en yaygın akademik Rusça meal) posthum 1963'te
+  yayımlandığından п.3 (yayın+70) + п.5 (savaş +4 yıl) uygulanır → 2038'e
+  kadar telifli, bu yüzden Sablukov tercih edildi. Kaynak: Al Quran Cloud
+  API (`ru.sablukov`, düz metin, dipnotsuz/temiz — veri temizliği gerekmedi).
 - **Kuranca okunuş:** [QUL / Tarteel](https://qul.tarteel.ai) "Turkish
   Transliteration" (QUL kaynak id 1560; data source: Tarteel). QUL'da bu
   kaynak için üçüncü şahıs telif kaydı yoktur; QUL SSS ticari kullanıma
